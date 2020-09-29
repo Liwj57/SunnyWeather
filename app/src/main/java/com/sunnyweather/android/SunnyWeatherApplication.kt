@@ -9,6 +9,7 @@ class SunnyWeatherApplication : Application()
 
     companion object
     {
+        const val TOKEN ="token_value"
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
     }
